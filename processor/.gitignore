@@ -70,5 +70,6 @@ amplifytools.xcconfig
 *.vsdconfig
 *.so
 *.js
+*.mp3
 .vsdbg/
 .DS_Store
