@@ -36,16 +36,6 @@ export class Recorder {
     this.accessKeyId = properties.get("AWS.accessKeyId");
     this.secretAccessKey = properties.get("AWS.secretAccessKey");
     this.region = properties.get("AWS.region");
-    // Initialize transcribe
-    /*
-    this.transcribeClient = new TranscribeStreamingClient({
-      region: this.region,
-      credentials: {
-        accessKeyId: this.accessKeyId,
-        secretAccessKey: this.secretAccessKey,
-      },
-    });
-    */
   }
 
   recordToFile(): string | null {
