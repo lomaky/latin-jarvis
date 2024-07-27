@@ -9,11 +9,12 @@ export class Oracle {
     }
     // Summarize article
     const promptSummaryRequest: chat = {
-      model: "llama3",
+      model: "llama3.1",
       messages: [
         {
           role: "user",
-          content: "Puedes responder la siguiente pregunta en español en pocas palabras?",
+          content:
+            "Puedes responder la siguiente pregunta en español en pocas palabras?",
         },
         {
           role: "assistant",

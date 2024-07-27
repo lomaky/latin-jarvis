@@ -6,7 +6,7 @@ Ask questions to Latin Jarvis, powered by Llama3, AWS Transcribe & AWS Polly
 ### SOX ###
 `brew install sox`
 
-### ollama running llama3 ###
+### ollama running llama3.1 ###
 
 ### afplay ###
 
